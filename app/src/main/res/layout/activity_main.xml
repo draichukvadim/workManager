@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btSingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single" />
+
+    <Button
+        android:id="@+id/btPeriodic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Periodic" />
+
+    <Button
+        android:id="@+id/btSingleWithConstraint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SingleWithConstraint" />
+
+    <Button
+        android:id="@+id/btChained"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chained" />
+
+    <Button
+        android:id="@+id/btChainedWithErrorOnSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChainedWithErrorOnSecond" />
+
+</LinearLayout>
